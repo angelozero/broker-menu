@@ -1,0 +1,1080 @@
+[
+  {
+    "_id": "AB01",
+    "name": "Seguro",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD01",
+    "highLevel": "AB01",
+    "name": "Seguro-Vida",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD01",
+    "highLevel": "CD01",
+    "name": "Seguro-Vida: Família",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD02",
+    "highLevel": "XD01",
+    "name": "Seguro-Vida: Família: Cônjuge",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD03",
+    "highLevel": "XD02",
+    "name": "Seguro-Vida: Família: Cônjuge: Filhos",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD02",
+    "highLevel": "AB01",
+    "name": "Seguro-Financeiro",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD04",
+    "highLevel": "CD02",
+    "name": "Seguro-Financeiro: Poupança",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD05",
+    "highLevel": "XD04",
+    "name": "Seguro-Financeiro: Poupança: Investimentos",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD06",
+    "highLevel": "XD05",
+    "name": "Seguro-Financeiro: Poupança: Investimentos: Ações",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD03",
+    "highLevel": "AB01",
+    "name": "Contabilidade",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD07",
+    "highLevel": "CD03",
+    "name": "Contabilidade: Impostos",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD08",
+    "highLevel": "XD07",
+    "name": "Contabilidade: Impostos: Declaração",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD09",
+    "highLevel": "XD08",
+    "name": "Contabilidade: Impostos: Declaração: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD04",
+    "highLevel": "AB01",
+    "name": "Carro",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD10",
+    "highLevel": "CD04",
+    "name": "Carro: Manutenção",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD11",
+    "highLevel": "XD10",
+    "name": "Carro: Manutenção: Troca de Óleo",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD12",
+    "highLevel": "XD11",
+    "name": "Carro: Manutenção: Troca de Óleo: Semestral",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD13",
+    "highLevel": "CD01",
+    "name": "Seguro-Vida: Saúde",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD14",
+    "highLevel": "XD13",
+    "name": "Seguro-Vida: Saúde: Exames",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD15",
+    "highLevel": "XD14",
+    "name": "Seguro-Vida: Saúde: Exames: Anuais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  
+  {
+    "_id": "CD05",
+    "highLevel": "CD02",
+    "name": "Seguro-Financeiro: Empréstimos",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD16",
+    "highLevel": "CD05",
+    "name": "Seguro-Financeiro: Empréstimos: Pessoal",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD17",
+    "highLevel": "XD16",
+    "name": "Seguro-Financeiro: Empréstimos: Pessoal: Curto Prazo",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD18",
+    "highLevel": "XD17",
+    "name": "Seguro-Financeiro: Empréstimos: Pessoal: Curto Prazo: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD06",
+    "highLevel": "CD03",
+    "name": "Contabilidade: Consultoria",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD19",
+    "highLevel": "CD06",
+    "name": "Contabilidade: Consultoria: Pessoal",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD20",
+    "highLevel": "XD19",
+    "name": "Contabilidade: Consultoria: Pessoal: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD21",
+    "highLevel": "XD20",
+    "name": "Contabilidade: Consultoria: Pessoal: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD07",
+    "highLevel": "CD04",
+    "name": "Carro: Financiamento",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD22",
+    "highLevel": "CD07",
+    "name": "Carro: Financiamento: Pessoal",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD23",
+    "highLevel": "XD22",
+    "name": "Carro: Financiamento: Pessoal: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD24",
+    "highLevel": "XD23",
+    "name": "Carro: Financiamento: Pessoal: Taxas: Anuais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD08",
+    "highLevel": "AB01",
+    "name": "Seguro-Residencial",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD25",
+    "highLevel": "CD08",
+    "name": "Seguro-Residencial: Cobertura",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD26",
+    "highLevel": "XD25",
+    "name": "Seguro-Residencial: Cobertura: Incêndio",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD27",
+    "highLevel": "XD26",
+    "name": "Seguro-Residencial: Cobertura: Incêndio: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD28",
+    "highLevel": "XD24",
+    "name": "Carro: Manutenção: Troca de Pneus",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD29",
+    "highLevel": "XD28",
+    "name": "Carro: Manutenção: Troca de Pneus: Semestral",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD30",
+    "highLevel": "XD29",
+    "name": "Carro: Manutenção: Troca de Pneus: Semestral: Marcas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD09",
+    "highLevel": "CD01",
+    "name": "Seguro-Vida: Viagem",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD31",
+    "highLevel": "CD09",
+    "name": "Seguro-Vida: Viagem: Nacional",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD32",
+    "highLevel": "XD31",
+    "name": "Seguro-Vida: Viagem: Nacional: Destinos",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD33",
+    "highLevel": "XD32",
+    "name": "Seguro-Vida: Viagem: Nacional: Destinos: Cidades",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD10",
+    "highLevel": "CD02",
+    "name": "Seguro-Financeiro: Consultoria",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD34",
+    "highLevel": "CD10",
+    "name": "Seguro-Financeiro: Consultoria: Pessoal",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD35",
+    "highLevel": "XD34",
+    "name": "Seguro-Financeiro: Consultoria: Pessoal: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD36",
+    "highLevel": "XD35",
+    "name": "Seguro-Financeiro: Consultoria: Pessoal: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  
+  {
+    "_id": "CD11",
+    "highLevel": "AB01",
+    "name": "Seguro-Automóvel",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD37",
+    "highLevel": "CD11",
+    "name": "Seguro-Automóvel: Cobertura",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD38",
+    "highLevel": "XD37",
+    "name": "Seguro-Automóvel: Cobertura: Roubo",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD39",
+    "highLevel": "XD38",
+    "name": "Seguro-Automóvel: Cobertura: Roubo: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD40",
+    "highLevel": "XD39",
+    "name": "Seguro-Automóvel: Cobertura: Roubo: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+
+  {
+    "_id": "CD12",
+    "highLevel": "CD03",
+    "name": "Contabilidade: Escritório",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD41",
+    "highLevel": "CD12",
+    "name": "Contabilidade: Escritório: Serviços",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD42",
+    "highLevel": "XD41",
+    "name": "Contabilidade: Escritório: Serviços: Mensais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD43",
+    "highLevel": "XD42",
+    "name": "Contabilidade: Escritório: Serviços: Mensais: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD13",
+    "highLevel": "CD04",
+    "name": "Carro: Seguro",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD44",
+    "highLevel": "CD13",
+    "name": "Carro: Seguro: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD45",
+    "highLevel": "XD44",
+    "name": "Carro: Seguro: Anual: Cobertura",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD46",
+    "highLevel": "XD45",
+    "name": "Carro: Seguro: Anual: Cobertura: Roubo",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD14",
+    "highLevel": "AB01",
+    "name": "Seguro-Multicar",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD47",
+    "highLevel": "CD14",
+    "name": "Seguro-Multicar: Cobertura",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD48",
+    "highLevel": "XD47",
+    "name": "Seguro-Multicar: Cobertura: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD49",
+    "highLevel": "XD48",
+    "name": "Seguro-Multicar: Cobertura: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD15",
+    "highLevel": "CD02",
+    "name": "Seguro-Financeiro: Aposentadoria",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD50",
+    "highLevel": "CD15",
+    "name": "Seguro-Financeiro: Aposentadoria: Planos",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD51",
+    "highLevel": "XD50",
+    "name": "Seguro-Financeiro: Aposentadoria: Planos: Anuais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD52",
+    "highLevel": "XD51",
+    "name": "Seguro-Financeiro: Aposentadoria: Planos: Anuais: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD16",
+    "highLevel": "CD03",
+    "name": "Contabilidade: Auditoria",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD53",
+    "highLevel": "CD16",
+    "name": "Contabilidade: Auditoria: Serviços",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD54",
+    "highLevel": "XD53",
+    "name": "Contabilidade: Auditoria: Serviços: Anuais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD55",
+    "highLevel": "XD54",
+    "name": "Contabilidade: Auditoria: Serviços: Anuais: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD17",
+    "highLevel": "CD04",
+    "name": "Carro: Vendas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD56",
+    "highLevel": "CD17",
+    "name": "Carro: Vendas: Novos",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD57",
+    "highLevel": "XD56",
+    "name": "Carro: Vendas: Novos: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD58",
+    "highLevel": "XD57",
+    "name": "Carro: Vendas: Novos: Taxas: Anuais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+
+  {
+    "_id": "CD18",
+    "highLevel": "AB01",
+    "name": "Seguro-Responsabilidade Civil",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD59",
+    "highLevel": "CD18",
+    "name": "Seguro-Responsabilidade Civil: Cobertura",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD60",
+    "highLevel": "XD59",
+    "name": "Seguro-Responsabilidade Civil: Cobertura: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD61",
+    "highLevel": "XD60",
+    "name": "Seguro-Responsabilidade Civil: Cobertura: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD19",
+    "highLevel": "CD01",
+    "name": "Seguro-Vida: Acidente",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD62",
+    "highLevel": "CD19",
+    "name": "Seguro-Vida: Acidente: Cobertura",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD63",
+    "highLevel": "XD62",
+    "name": "Seguro-Vida: Acidente: Cobertura: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD64",
+    "highLevel": "XD63",
+    "name": "Seguro-Vida: Acidente: Cobertura: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD20",
+    "highLevel": "CD02",
+    "name": "Seguro-Financeiro: Renda",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD65",
+    "highLevel": "CD20",
+    "name": "Seguro-Financeiro: Renda: Pessoal",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD66",
+    "highLevel": "XD65",
+    "name": "Seguro-Financeiro: Renda: Pessoal: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD67",
+    "highLevel": "XD66",
+    "name": "Seguro-Financeiro: Renda: Pessoal: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD21",
+    "highLevel": "CD03",
+    "name": "Contabilidade: Planejamento",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD68",
+    "highLevel": "CD21",
+    "name": "Contabilidade: Planejamento: Pessoal",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD69",
+    "highLevel": "XD68",
+    "name": "Contabilidade: Planejamento: Pessoal: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD70",
+    "highLevel": "XD69",
+    "name": "Contabilidade: Planejamento: Pessoal: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD22",
+    "highLevel": "CD04",
+    "name": "Carro: Avaliação",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD71",
+    "highLevel": "CD22",
+    "name": "Carro: Avaliação: Mercado",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD72",
+    "highLevel": "XD71",
+    "name": "Carro: Avaliação: Mercado: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD73",
+    "highLevel": "XD72",
+    "name": "Carro: Avaliação: Mercado: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD23",
+    "highLevel": "AB01",
+    "name": "Seguro-Casa",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD74",
+    "highLevel": "CD23",
+    "name": "Seguro-Casa: Cobertura",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD75",
+    "highLevel": "XD74",
+    "name": "Seguro-Casa: Cobertura: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD76",
+    "highLevel": "XD75",
+    "name": "Seguro-Casa: Cobertura: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD24",
+    "highLevel": "CD02",
+    "name": "Seguro-Financeiro: Investimentos",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD77",
+    "highLevel": "CD24",
+    "name": "Seguro-Financeiro: Investimentos: Ações",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD78",
+    "highLevel": "XD77",
+    "name": "Seguro-Financeiro: Investimentos: Ações: Anuais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD79",
+    "highLevel": "XD78",
+    "name": "Seguro-Financeiro: Investimentos: Ações: Anuais: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD25",
+    "highLevel": "CD03",
+    "name": "Contabilidade: Gestão",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD80",
+    "highLevel": "CD25",
+    "name": "Contabilidade: Gestão: Empresarial",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD81",
+    "highLevel": "XD80",
+    "name": "Contabilidade: Gestão: Empresarial: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD82",
+    "highLevel": "XD81",
+    "name": "Contabilidade: Gestão: Empresarial: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD26",
+    "highLevel": "CD04",
+    "name": "Carro: Manutenção: Limpeza",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD83",
+    "highLevel": "CD26",
+    "name": "Carro: Manutenção: Limpeza: Semestral",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD84",
+    "highLevel": "XD83",
+    "name": "Carro: Manutenção: Limpeza: Semestral: Produtos",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD85",
+    "highLevel": "XD84",
+    "name": "Carro: Manutenção: Limpeza: Semestral: Produtos: Marcas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD27",
+    "highLevel": "AB01",
+    "name": "Seguro-Moto",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD86",
+    "highLevel": "CD27",
+    "name": "Seguro-Moto: Cobertura",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD87",
+    "highLevel": "XD86",
+    "name": "Seguro-Moto: Cobertura: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD88",
+    "highLevel": "XD87",
+    "name": "Seguro-Moto: Cobertura: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD28",
+    "highLevel": "CD02",
+    "name": "Seguro-Financeiro: Cartão de Crédito",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD89",
+    "highLevel": "CD28",
+    "name": "Seguro-Financeiro: Cartão de Crédito: Limite",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD90",
+    "highLevel": "XD89",
+    "name": "Seguro-Financeiro: Cartão de Crédito: Limite: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD91",
+    "highLevel": "XD90",
+    "name": "Seguro-Financeiro: Cartão de Crédito: Limite: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD29",
+    "highLevel": "CD03",
+    "name": "Contabilidade: Relatórios",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD92",
+    "highLevel": "CD29",
+    "name": "Contabilidade: Relatórios: Mensais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD93",
+    "highLevel": "XD92",
+    "name": "Contabilidade: Relatórios: Mensais: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD94",
+    "highLevel": "XD93",
+    "name": "Contabilidade: Relatórios: Mensais: Taxas: Anuais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD30",
+    "highLevel": "CD04",
+    "name": "Carro: Financiamento: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD95",
+    "highLevel": "CD30",
+    "name": "Carro: Financiamento: Taxas: Anuais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD96",
+    "highLevel": "XD95",
+    "name": "Carro: Financiamento: Taxas: Anuais: Produtos",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD97",
+    "highLevel": "XD96",
+    "name": "Carro: Financiamento: Taxas: Anuais: Produtos: Marcas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD31",
+    "highLevel": "AB01",
+    "name": "Seguro-Viagem",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD98",
+    "highLevel": "CD31",
+    "name": "Seguro-Viagem: Nacional",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD99",
+    "highLevel": "XD98",
+    "name": "Seguro-Viagem: Nacional: Destinos",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD100",
+    "highLevel": "XD99",
+    "name": "Seguro-Viagem: Nacional: Destinos: Cidades",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD32",
+    "highLevel": "CD02",
+    "name": "Seguro-Financeiro: Consultoria",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD101",
+    "highLevel": "CD32",
+    "name": "Seguro-Financeiro: Consultoria: Pessoal",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD102",
+    "highLevel": "XD101",
+    "name": "Seguro-Financeiro: Consultoria: Pessoal: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD103",
+    "highLevel": "XD102",
+    "name": "Seguro-Financeiro: Consultoria: Pessoal: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD33",
+    "highLevel": "CD03",
+    "name": "Contabilidade: Gestão: Empresarial",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD104",
+    "highLevel": "CD33",
+    "name": "Contabilidade: Gestão: Empresarial: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD105",
+    "highLevel": "XD104",
+    "name": "Contabilidade: Gestão: Empresarial: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD34",
+    "highLevel": "CD04",
+    "name": "Carro: Vendas: Usados",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD106",
+    "highLevel": "CD34",
+    "name": "Carro: Vendas: Usados: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD107",
+    "highLevel": "XD106",
+    "name": "Carro: Vendas: Usados: Taxas: Anuais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD108",
+    "highLevel": "XD107",
+    "name": "Carro: Vendas: Usados: Taxas: Anuais: Marcas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD35",
+    "highLevel": "AB01",
+    "name": "Seguro-Casa: Proteção",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD109",
+    "highLevel": "CD35",
+    "name": "Seguro-Casa: Proteção: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD110",
+    "highLevel": "XD109",
+    "name": "Seguro-Casa: Proteção: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD36",
+    "highLevel": "CD02",
+    "name": "Seguro-Financeiro: Consultoria: Empresarial",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD111",
+    "highLevel": "CD36",
+    "name": "Seguro-Financeiro: Consultoria: Empresarial: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD112",
+    "highLevel": "XD111",
+    "name": "Seguro-Financeiro: Consultoria: Empresarial: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD37",
+    "highLevel": "CD03",
+    "name": "Contabilidade: Consultoria: Empresarial",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD113",
+    "highLevel": "CD37",
+    "name": "Contabilidade: Consultoria: Empresarial: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD114",
+    "highLevel": "XD113",
+    "name": "Contabilidade: Consultoria: Empresarial: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD38",
+    "highLevel": "CD04",
+    "name": "Carro: Manutenção: Revisão",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD115",
+    "highLevel": "CD38",
+    "name": "Carro: Manutenção: Revisão: Semestral",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD116",
+    "highLevel": "XD115",
+    "name": "Carro: Manutenção: Revisão: Semestral: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD39",
+    "highLevel": "AB01",
+    "name": "Seguro-Responsabilidade Civil: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD117",
+    "highLevel": "CD39",
+    "name": "Seguro-Responsabilidade Civil: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD118",
+    "highLevel": "XD117",
+    "name": "Seguro-Responsabilidade Civil: Anual: Taxas: Cobertura",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD40",
+    "highLevel": "CD02",
+    "name": "Seguro-Financeiro: Aposentadoria: Empresarial",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD119",
+    "highLevel": "CD40",
+    "name": "Seguro-Financeiro: Aposentadoria: Empresarial: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD120",
+    "highLevel": "XD119",
+    "name": "Seguro-Financeiro: Aposentadoria: Empresarial: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD41",
+    "highLevel": "CD03",
+    "name": "Contabilidade: Gestão: Corporativa",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD121",
+    "highLevel": "CD41",
+    "name": "Contabilidade: Gestão: Corporativa: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD122",
+    "highLevel": "XD121",
+    "name": "Contabilidade: Gestão: Corporativa: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD42",
+    "highLevel": "CD04",
+    "name": "Carro: Venda: Corporativa",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD123",
+    "highLevel": "CD42",
+    "name": "Carro: Venda: Corporativa: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD124",
+    "highLevel": "XD123",
+    "name": "Carro: Venda: Corporativa: Taxas: Anuais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD43",
+    "highLevel": "AB01",
+    "name": "Seguro-Multicar: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD125",
+    "highLevel": "CD43",
+    "name": "Seguro-Multicar: Anual: Cobertura",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD126",
+    "highLevel": "XD125",
+    "name": "Seguro-Multicar: Anual: Cobertura: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD44",
+    "highLevel": "CD02",
+    "name": "Seguro-Financeiro: Renda: Corporativa",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD127",
+    "highLevel": "CD44",
+    "name": "Seguro-Financeiro: Renda: Corporativa: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD128",
+    "highLevel": "XD127",
+    "name": "Seguro-Financeiro: Renda: Corporativa: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "CD45",
+    "highLevel": "CD03",
+    "name": "Contabilidade: Auditoria: Corporativa",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD129",
+    "highLevel": "CD45",
+    "name": "Contabilidade: Auditoria: Corporativa: Anual",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD130",
+    "highLevel": "XD129",
+    "name": "Contabilidade: Auditoria: Corporativa: Anual: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  
+  {
+    "_id": "CD46",
+    "highLevel": "CD04",
+    "name": "Carro: Vendas: Online",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD131",
+    "highLevel": "CD46",
+    "name": "Carro: Vendas: Online: Taxas",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  },
+  {
+    "_id": "XD132",
+    "highLevel": "XD131",
+    "name": "Carro: Vendas: Online: Taxas: Anuais",
+    "_class": "com.angelozero.broker.menu.dataprovider.mongo.collections.MenuCollection"
+  }
+]
